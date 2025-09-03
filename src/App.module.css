@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  height: 100vh;
+  padding: 16px;
+}
+h2 {
+  color: #999999; /* Contoh warna light steel blue */
+}
+.Header {
+  text-align: center;
+}
+
+.Logo {
+  width: 180px;
+  height: 100px;
+}
+
+.Title {
+  margin: 0;
+}
+
+.AppContainer {
+  width: 100%;
+  padding: 16px;
+  background: light-dark(#555555, #212121);
+  border-radius: 16px;
+  overflow-y: auto;
+}
